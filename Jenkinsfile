@@ -10,7 +10,7 @@ pipeline {
             steps {
                 // Install Node.js (if not already installed) using Chocolatey package manager
                 bat '''
-                npm install nodejs -y
+                choco install nodejs -y
                 npm install
                 '''
 
