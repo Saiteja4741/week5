@@ -15,6 +15,7 @@ pipeline {
                 '''
 
                 // Run npm tests
+                bat 'node app.js' 
                 bat 'npm run test'
             }
         }
